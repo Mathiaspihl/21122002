@@ -30,8 +30,8 @@ fieldset {
 
 legend {
     border: 1px black solid;
-    margin-left: 1em; 
-    padding: 0.2em 0.8em;
+    margin-left: 2px; 
+    padding: 1px 20px 1px 20px; /* top right bottom left */
     font-family: 'Poppins', sans-serif;
     background-color: rgba(254, 254, 254, 0.7); /* Black w/opacity/see-through */
 }
@@ -163,9 +163,18 @@ table {
     padding: 8px;
     width: 100%;
   } 
+
   h1 {
     text-align: left;
     text-transform: capitalize;
+    color: #2c0808;
+    /* text-decoration: underline; */
+    text-shadow: 2px 2px rgb(254, 254, 254);
+  }
+
+  h3 {
+    text-align: left;
+    /* text-transform: capitalize; */
     color: #2c0808;
     /* text-decoration: underline; */
     text-shadow: 2px 2px rgb(254, 254, 254);
@@ -174,7 +183,7 @@ table {
   .main {
     /* text-indent: 25px; */
     text-align: left;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 30px; 
     margin-top: 2px;
@@ -183,9 +192,8 @@ table {
   }
 
   p{
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-family: 'Poppins', sans-serif;
-
   }
   
 
