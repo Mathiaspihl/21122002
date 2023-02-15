@@ -171,6 +171,7 @@ table {
     color: #2c0808;
     /* text-decoration: underline; */
     text-shadow: 2px 2px rgb(254, 254, 254);
+    font-family: 'Poppins', sans-serif;
   }
 
   h3 {
@@ -179,6 +180,7 @@ table {
     color: #2c0808;
     /* text-decoration: underline; */
     text-shadow: 2px 2px rgb(254, 254, 254);
+    font-family: 'Poppins', sans-serif;
   }
   
   .main {
