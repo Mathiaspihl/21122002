@@ -7,6 +7,11 @@ USEFUL LINKS:
 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+@import url(https://fonts.bunny.net/css?family=inter:100,200,300,400,500,600,700,800,900);
+/* @import url(https://fonts.bunny.net/css?family=alumni-sans:100,400,400i,700,700i|inter:100,200,300,400,500,600,700,800,900); */
+
+@import url(https://use.fontawesome.com/releases/v6.6.0/css/all.css);
+@import url(https://www.nerdfonts.com/assets/css/webfont.css);
 
 fieldset {
     display: block;
@@ -29,11 +34,13 @@ fieldset {
 }
 
 legend {
-    border: 1px black solid;
-    margin-left: 2px; 
-    padding: 1px 20px 1px 20px; /* top right bottom left */
-    font-family: 'Poppins', sans-serif;
-    background-color: rgba(254, 254, 254, 0.7); /* Black w/opacity/see-through */
+  border: 1px black solid;
+  margin-left: 1em; 
+  padding: 0.2em 0.8em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  background-color: rgba(255, 255, 255, 0.8); /* Black w/opacity/see-through */
 }
 
 :target{
@@ -46,7 +53,7 @@ html,body{
     padding:0;
     height:100%;
     border:none;                    /*!!!this was remarked*/
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     background-color: rgb(247, 202, 196);
     background-image: url(https://21122002.xyz/images/always_you.jpg);
@@ -171,7 +178,7 @@ table {
     color: #2c0808;
     /* text-decoration: underline; */
     text-shadow: 2px 2px rgb(254, 254, 254);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
   }
 
   h3 {
@@ -180,14 +187,14 @@ table {
     color: #2c0808;
     /* text-decoration: underline; */
     text-shadow: 2px 2px rgb(254, 254, 254);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
   }
   
   .main {
     /* text-indent: 25px; */
     text-align: left;
     letter-spacing: 1px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin-bottom: 30px; 
     margin-top: 2px;
     margin-right: 10px;
@@ -195,15 +202,17 @@ table {
   }
 
   p{
-    letter-spacing: 1px;
-    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
   }
   
 
 
 a {
     color: black;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     text-decoration: none;
     padding: 2px 0px 1px;
     background-image: linear-gradient(transparent 0%, transparent calc(50% - 9px), rgba(0, 255, 0, 0.35) calc(50% - 9px), rgba(0, 255, 0, 0.35) 100%);
@@ -222,7 +231,7 @@ a {
   }
 
   .tooltiponly .tooltiptextonly {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     letter-spacing: normal;
     visibility: hidden;
     width: 200px;
@@ -258,7 +267,7 @@ a {
   }
   
   .tooltip .tooltiptext {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     letter-spacing: normal;
     visibility: hidden;
     /* display: none; */
@@ -301,7 +310,7 @@ a {
 }
 
 .tooltipimg .tooltiptextimg {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   letter-spacing: normal;
   visibility: hidden;
   min-width: 200px;
